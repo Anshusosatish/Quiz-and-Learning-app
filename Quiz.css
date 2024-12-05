@@ -1,0 +1,165 @@
+body{
+    background-color: green;
+}
+* {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.quiz,
+.scores {
+    margin: 50px auto 0 auto;
+    max-width: 400px;
+}
+
+#top {
+    color: rgb(34, 160, 147);
+
+}
+img{
+    height: 90px;
+    width: 90%;
+    border-right: 2px solid red;
+}
+.ic{
+    height: 50px;
+    margin-right: 22px;
+    width: 50px;
+    border-radius: 25px;
+    border: 5px solid rgb(144, 143, 143);
+}
+.icon{
+    height: 30px;
+    width: 80%;
+    display: flex;
+}
+.head{
+    height: 91px;
+    border: 2px solid rgb(227, 31, 31);
+    background-color: #2d4add;
+    font-size: 50px;
+    border-radius: 5px;
+}
+.heade{
+    height: 90px;
+    width: auto;
+    
+}
+.containerNew {
+    border: 2px solid  rgb(4, 0, 7);
+    border-radius: 8px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 546px;
+    width: 100%;     
+    transform: translate(-50%, -50%);
+    background-color: #1a024e;
+    padding: 0px;
+}
+
+p {
+    margin: 5px 5px;
+    color: #dfdae7;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.landing {
+    text-align: left;
+}
+
+.scoresHeader {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}
+
+.timer {
+    position: absolute;
+    top: 19px;
+    right: 5px;
+    color: #dfdae7;
+    font-size: 25px;
+    
+}
+
+button {
+    display: inline-block;
+    margin: 5px 1px 5px 1px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #060804;
+    border-radius: 5px;
+    border: px solid rgb(253, 250, 250);
+    padding: 10px;
+    
+
+}
+
+button:hover {
+    background-color: #9e9fa1;
+    color: black;
+    border-radius: 30px;
+    border: 3px white;
+}
+
+.options button {
+    display: block;
+}
+
+input[type="text"] {
+    font-size: 90%;
+}
+
+.hide {
+    display: none;
+}
+
+.feedback {
+    font-style: bold;
+    font-size: 90%;
+    margin-top: 10px;
+    padding-top: 7px;
+    color: #fff;
+    border-top: 2px solid #eeeaf0;
+}
+
+ol {
+    padding-left: 5px;
+    max-height: 400px;
+    overflow: auto;
+}
+
+li {
+    padding: 5px;
+    list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+    background-color: #dfdae7;
+}
+
+@media screen and (max-width: 768px) {
+    .containerNew {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .containerNew {
+        width: 70%;
+    }
+
+    .quiz,
+    .scores {
+        max-width: 70%;
+     }
+ }
+h2 {
+    color: rgb(235, 250, 65);
+    margin: 0 10px 0;
+}
+h3 {
+    color: rgb(77, 239, 77);
+    margin: 0%;
+}
